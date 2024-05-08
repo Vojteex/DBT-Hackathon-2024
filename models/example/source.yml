@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: DATA_SAMPLE
+    database: HACKATHON  
+    schema: DATA_SAMPLE
+    tables:
+      - name: PIZZA_CUSTOMERS
+      - name: PIZZA_MARKETING_EXPENDITURES
+      - name: PIZZA_ORDERS
+      - name: PIZZA_ORDER_ITEMS
+      - name: PIZZA_ORDER_ITEMS_TOPPINGS
+      - name: SAAS_MARKETING_EXPENDITURES
+      - name: SAAS_SALES
+      - name: GENERATED_INVENTORY_DETAILS
+      - name: GENERATED_PRODUCT_INFORMATION
+      - name: GENERATED_SALES_DATA
+
